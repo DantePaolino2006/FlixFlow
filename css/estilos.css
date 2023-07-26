@@ -1,0 +1,215 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+
+	font-family: sans-serif;
+	margin: 0;
+	overflow: hidden;
+}
+header{
+
+display: flex;
+height: 10vh;
+width: 100vw;
+background:url(../Recursos/fondoheader.png);
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.div1{
+	display: flex;
+	align-items: center;
+	
+}
+
+.div1 img{
+
+	height: 10vh;
+	
+
+}
+
+a{
+text-decoration: none;
+color: black;
+
+}
+
+main{
+
+	display: flex;
+	
+}
+
+.sec1{
+	width: 33vw;
+height: 50vh;
+	
+}
+.video3{
+	position: fixed;
+	top: 10vh;
+	left: 0vw;
+	width: 33vw;
+	height: 50vh;
+	object-fit: cover;
+}
+
+.sec2{
+	
+	width: 34vw;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+flex-direction: column;
+}
+
+h1{
+
+color: pink;	
+font-family: 'Poppins', sans-serif;
+}
+
+}
+
+.sec3{
+	
+	width: 33vw;
+height: 50vh;
+align-items: center;
+display: flex;
+	justify-content: center;
+
+}
+
+ .video1{
+
+	position: fixed;
+	top: 10vh;
+	left: 67vw;
+	width: 33vw;
+	height: 50vh;
+	object-fit: cover;
+
+}
+
+
+.footer{
+	background: url(../Recursos/fondo2.jpg);
+	width: 100vw;
+	height: 40vh;
+	
+}
+
+
+}
+@media(min-width: 600px){
+
+	header{
+		
+	}
+}
+
+@media(max-width: 600px){
+
+	header{
+
+		
+height: 60vh;
+width: 20vw;
+
+flex-direction: column;
+float: left;
+	}
+
+	.div1{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.div1 img{
+
+    width: 20vw;
+	height: 10vh;
+
+}
+
+main{
+
+display: block;
+}
+
+.sec1{
+	height: 20vh;
+	width: 80vw;
+    
+    display: flex;
+}
+
+
+.video3{
+	
+	top: 40vh;
+	left: 20vw;
+	width: 80vw;
+	height: 20vh;
+	 
+	object-fit: cover;
+}
+
+
+.sec2{
+	
+	width: 80vw;
+height: 20vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: black;
+flex-direction: column;
+
+}
+
+h1{
+
+color: pink;	
+
+}
+
+
+ .video1{
+    top: 0vh;
+	left: 20vw;
+	position: fixed;
+	width: 80vw;
+	height: 20vh;
+	
+
+}
+
+.sec3{
+	
+	width: 80vw;
+height: 20vh;
+
+display: flex;
+}
+
+.footer{
+	
+	width: 100vw;
+	height: 40vh;
+}
+}
+
